@@ -93,9 +93,9 @@ class ProductsSeeder extends Seeder
             [
                 'category_id' => 5,
                 'product_name' => 'Samsung Galaxy A14 5G (Dark Red, 8GB, 128GB Storage) | Triple Rear Camera (50 MP Main) | Upto 16 GB RAM with RAM Plus | Without Charger',
-                'product_price' => 399.00,
+                'product_price' => 20999.00,
                 'product_qty' => 500,
-                'product_desc' => '<ul class="a-unordered-list a-vertical a-spacing-mini">   <li class="a-spacing-small"><span class="a-list-item"> Care Instructions: Hand Wash Only  </span></li>  <li class="a-spacing-small"><span class="a-list-item"> Fit Type: Regular Fit  </span></li>  <li class="a-spacing-small"><span class="a-list-item"> It Features Collar Neck With Little Frills, Long Sleeves With Frills And Cuff, Regular Length Top, Center Back Loop Button Closure, Regular Fit, It Is A Hand Wash Product Only&lt;br&gt;&lt;br&gt;  </span></li>  <li class="a-spacing-small"><span class="a-list-item"> Collar Style: Round Collar&lt;br&gt;  </span></li>  <li class="a-spacing-small"><span class="a-list-item"> Lifestyle: Casual; Occasion Type: Casual; Material Composition: 80% Polyester, 20% Cotton  </span></li>  </ul>',
+                'product_desc' => '<ul class="a-unordered-list a-vertical a-spacing-mini">   <li class="a-spacing-small"><span class="a-list-item"> A large 6.6″ FHD+ LCD display (1080 X 2408) with a 20:9 aspect ratio for cinematic viewing  </span></li>  <li class="a-spacing-small"><span class="a-list-item"> Android 13 One UI Core 5.0 (Octa Core 2.4GHz ) Octa-Core processor  </span></li>  <li class="a-spacing-small"><span class="a-list-item"> 50+2+2MP High Resolution Camera, Lets you capture clearer, brighter photos on any occasion  </span></li>  <li class="a-spacing-small"><span class="a-list-item"> 5000 Massive Battery ,Coherent Large battery capacity with AI Power management  </span></li>  <li class="a-spacing-small"><span class="a-list-item"> 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase  </span></li>  </ul>',
                 'product_img' => 'uploads/img10.png',
             ],
         ];

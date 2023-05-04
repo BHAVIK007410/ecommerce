@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<ruleset name="PHP_CodeSniffer">
+    <description>The coding standard for our project.</description>
+
+    <rule ref="Generic.NamingConventions.CamelCapsFunctionName">
+        <properties>
+            <property name="strict" value="true" />
+        </properties>
+    </rule>
+
+    <rule ref="PEAR.WhiteSpace.ObjectOperatorIndent">
+        <properties>
+            <property name="indent" value="4" />
+        </properties>
+    </rule>
+
+    <rule ref="Squiz.Commenting.ClassComment">
+        <exclude-pattern>tests</exclude-pattern>
+        <exclude-pattern>routes</exclude-pattern>
+        <exclude-pattern>resources</exclude-pattern>
+        <exclude-pattern>database</exclude-pattern>
+        <exclude-pattern>config</exclude-pattern>
+        <exclude-pattern>bootstrap</exclude-pattern>
+        <exclude-pattern>app/Http/Kernel.php</exclude-pattern>
+        <exclude-pattern>app/Http/Middleware</exclude-pattern>
+        <exclude-pattern>app/Exceptions</exclude-pattern>
+        <exclude-pattern>app/Providers</exclude-pattern>
+        <exclude-pattern>app/Console/Kernel.php</exclude-pattern>
+    </rule>
+
+    <!-- Private methods MUST not be prefixed with an underscore -->
+    <rule ref="PSR2.Methods.MethodDeclaration.Underscore">
+        <type>error</type>
+    </rule>
+
+    <!-- Private properties MUST not be prefixed with an underscore -->
+    <rule ref="PSR2.Classes.PropertyDeclaration.Underscore">
+        <type>error</type>
+    </rule>
+
+    <file>app</file>
+    <file>bootstrap</file>
+    <file>config</file>
+    <file>database</file>
+    <file>resources</file>
+    <file>routes</file>
+    <file>tests</file>
+
+    <exclude-pattern>bootstrap/cache/*</exclude-pattern>
+    <exclude-pattern>bootstrap/autoload.php</exclude-pattern>
+    <exclude-pattern>*/migrations/*</exclude-pattern>
+    <exclude-pattern>*/seeds/*</exclude-pattern>
+    <exclude-pattern>*.blade.php</exclude-pattern>
+    <exclude-pattern>*.js</exclude-pattern>
+    <exclude-pattern>*/tests/*</exclude-pattern>
+
+    <!-- Show progression -->
+    <arg name="colors"/>
+    <arg value="np"/>
+</ruleset>
